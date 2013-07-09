@@ -16,7 +16,7 @@ class AlbumControllerTest extends AbstractHttpControllerTestCase
     public function setUp()
     {
         $this->setApplicationConfig(
-            include 'C:/Nandini/PartTimeProject/zf2-tutorial/config/application.config.php'
+            include __DIR__."/../../../../../config/application.config.php"
         );
         parent::setUp();
     }
